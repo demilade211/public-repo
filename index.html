@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Home</title>
+</head>
+<body>
+<header class="header">
+   <div class="container">
+        <div class="brand"><h3><a href="#">Resto</a></h3></div>
+        <nav class="links mobile-links">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Order</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <nav class="links">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">Order</a></li>
+                <li><a href="#services">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button type="button" class="mobile-button" onclick="toggleDropdownMenu(1)">
+            <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+        </button>
+   </div>
+</header>
+<section>
+    <div class="text">
+            <div>
+                <h2> Thank you for your patronage, Would you like to leave a TIP </h2>
+                   <span><button type="button" class="btn btn-primary">Yes</button></span>
+                   <span><button type="button" class="btn btn-danger" onclick="$(this).hide();">No</button></span>
+            </div>
+
+    </div>
+</section>
+    <script src="bootstrap-4.3.1-dist/js/jquery.min.js"></script>
+    <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
