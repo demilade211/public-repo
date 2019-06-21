@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    position: relative;
+}
 .header{
     position: fixed;
     width: 100%;
@@ -110,7 +113,7 @@ section{
   font-size: 30px;
 }
 h2{
-    font-size: 15px;
+    font-size: 2px;
     color: white;
 }
 /* MEDIA QUERIES MAIN HEADER */
@@ -143,11 +146,11 @@ h2{
     justify-content: center;
 }
 .text > div {
-  width: 300px;
+  width:70%;
   text-align: center;
   font-size: 30px;
 }
 h2{
-    font-size: 40px;
+    font-size: 25px;
     color: white;
 }
