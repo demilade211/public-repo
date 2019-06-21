@@ -38,17 +38,19 @@
     <div class="text">
             <div>
                 <h2> Thank you for your patronage, Would you like to leave a TIP </h2>
-                   <span><button type="button" class="btn btn-primary">Yes</button></span>
+                   <span><button type="button" class="btn btn-primary" id="btn">Yes</button></span>
                    <span><button type="button" class="btn btn-danger" onclick="$(this).hide();">No</button></span>
             </div>
 
     </div>
-    <!--
-    <div class="contianer">
+    <div class="pcontainer">
         <div class="form-container">
-            <div class="forms"><input type="text" placeholder="Enter full name"></div>
-            <div class="forms"></div>
-            <div class="forms"></div>
+            <div class="forms"><h3>Tip Calculator</h3></div>
+            <div class="forms"><input type="text" class="name" placeholder="Enter full name"></div>
+            <div class="forms"><input type="text" class="server" placeholder="Enter Name of server"></div>
+            <div class="forms"><input type="text" class="amount" placeholder="Enter amount spent"></div>
+            <div class="forms"><input type="text" class="perc" placeholder="Enter percentage of tip"></div>
+            <div class="forms"><button type="button" class="btn btn-primary" id="btns">Submit</button></div>
         </div>
         
     </div>
